@@ -17,8 +17,9 @@
     "morgan": "~1.9.1"
   },
   "projectConfig": {
-    "mongoConnectionUrl": "mongodb://localhost:27017",
-    "serverIp": "172.22.0.193",
+    "mongoConnectionUrl": "mongodb+srv://FoodDelivery:JwdoE4D1JWAN6WdP@cluster0.wegoqr8.mongodb.net/FoodDelivery?retryWrites=true&w=majority",
+    "serverIp1": "172.22.0.193",
+    "serverIp": "localhost",
     "serverPort": 3000
   }
 }

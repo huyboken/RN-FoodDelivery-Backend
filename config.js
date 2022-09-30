@@ -3,7 +3,7 @@ const config = require("./package.json").projectConfig
 module.exports = {
     mongoConfig: {
         connectionUrl: config.mongoConnectionUrl,
-        database: "rn_fooddelivery_db",
+        database: "FoodDelivery",
         collections: {
             USERS: "users",
         },
