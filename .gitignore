@@ -134,4 +134,4 @@ dist
 .pnp.*
 
 # config database
-.package-lock.json/projectConfig/mongoConnectionUrl
+.package.json/projectConfig/mongoConnectionUrl
