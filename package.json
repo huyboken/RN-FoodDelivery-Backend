@@ -19,6 +19,7 @@
   "projectConfig": {
     "mongoConnectionUrl": "mongodb+srv://FoodDelivery:JwdoE4D1JWAN6WdP@cluster0.wegoqr8.mongodb.net/FoodDelivery?retryWrites=true&w=majority",
     "serverIp1": "172.22.0.193",
+    "serverIp2": "192.168.0.101",
     "serverIp": "localhost",
     "serverPort": 3000
   }

@@ -115,9 +115,9 @@ const tokenVerification = async (req, res, next) => {
     console.log(`authentication | tokenVerification | ${req?.originalUrl}`);
     try {
         if (
-            req?.originalUrl.endsWith("/login") ||
-            req?.originalUrl.endsWith("/user-exist") ||
-            req?.originalUrl.endsWith("/register")
+            req?.originalUrl.includes("/login") ||
+            req?.originalUrl.includes("/user-exist") ||
+            req?.originalUrl.includes("/register")
         )
             return next();
         let token = req?.headers["authorization"];
