@@ -1,5 +1,4 @@
 const { MongoClient } = require("mongodb");
-
 const { mongoConfig } = require("../config");
 
 class MongoDB {

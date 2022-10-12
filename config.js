@@ -6,7 +6,9 @@ module.exports = {
         database: "FoodDelivery",
         collections: {
             USERS: "users",
-            RESTAURANTS: "restaurants"
+            RESTAURANTS: "restaurants",
+            CARTS: "carts",
+            FOODS: "foods"
         },
     },
     serverConfig: {
